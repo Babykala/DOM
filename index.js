@@ -36,28 +36,37 @@ num2.addEventListener("keypress",function(e){
 selectButton1.addEventListener("click",function(){
   
     output.value=Number(num1.value)+Number(num2.value);
+    document.querySelector("#first")="";
+    document.querySelector("#second")="";
 })
 
 
 selectButton2.addEventListener("click",function(){
 
     output.value=Number(num1.value)-Number(num2.value);
+    document.querySelector("#first")="";
+    document.querySelector("#second")="";
 })
 selectButton3.addEventListener("click",function(){
 
     output.value=Number(num1.value)*Number(num2.value);
+    document.querySelector("#first")="";
+    document.querySelector("#second")="";
 })
 
 selectButton4.addEventListener("click",function(){
 
     output.value=Number(num1.value)/Number(num2.value);
+    document.querySelector("#first")="";
+    document.querySelector("#second")="";
 })
 
 selectButton5.addEventListener("click",function(){
 
     output.value=Number(num1.value)%Number(num2.value);
+    document.querySelector("#first")="";
+    document.querySelector("#second")="";
 })
 
-document.querySelector("#first")="";
-document.querySelector("#second")="";
+
 
