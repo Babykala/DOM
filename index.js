@@ -58,5 +58,6 @@ selectButton5.addEventListener("click",function(){
     output.value=Number(num1.value)%Number(num2.value);
 })
 
-
+document.querySelector("#first")="";
+document.querySelector("#second")="";
 
